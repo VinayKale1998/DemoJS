@@ -11,4 +11,5 @@ function mutiplyTwoNumber(c,d)
     return c*d;
 }
 console.log(mutiplyTwoNumber(2,3));
+//fssfs
 
