@@ -14,3 +14,4 @@ console.log(mutiplyTwoNumber(2,3));
 //fssfs
 
 console.log(addTwoNumber(4,5));
+console.log("dummy");
