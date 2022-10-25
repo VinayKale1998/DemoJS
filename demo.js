@@ -15,3 +15,4 @@ console.log(mutiplyTwoNumber(2,3));
 
 console.log(addTwoNumber(4,5));
 console.log("dummy");
+console.log("a");
