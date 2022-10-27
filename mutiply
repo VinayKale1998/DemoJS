@@ -1,2 +1,7 @@
-num = 2+4;
+let num = 2+4;
 console.log(num);
+let user ="vinay"
+console.log(user)
+let sentence= "Vinay\n  surname is kale"   
+console.log(sentence)
+
