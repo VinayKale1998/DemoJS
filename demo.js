@@ -18,3 +18,9 @@ console.log("dummy");
 console.log("a");
 console.log("b");
 
+function nthchar(a,b)
+{
+    return a.charAt(b);
+}
+console.log(nthchar("fun",1))
+

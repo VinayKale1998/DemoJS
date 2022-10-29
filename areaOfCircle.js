@@ -5,3 +5,12 @@ the upcoming lines but not the value of pi*/
 
 let area = (radius*pi^2)
 console.log(area)
+
+let num = "vin"
+
+console.log( (5/"vinay"))
+console.log(typeof (5/"vinay"))
+
+console.log("vinay \v R")
+let num2 = num+3
+console.log(num2)
