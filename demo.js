@@ -1,19 +1,5 @@
-function addTwoNumbers(a,b)
+a=1;
+while(a<=10)
 {
-    return a+b;
+    console.log(++a);
 }
-console.log(addTwoNumbers(2,3));
-console.log(addTwoNumbers(4,6));
-console.log(mutiplyTwoNumber(2,3));
-
-function mutiplyTwoNumber(c,d)
-{
-    return c*d;
-}
-console.log(mutiplyTwoNumber(2,3));
-//fssfs
-
-console.log(addTwoNumber(4,5));
-console.log("dummy");
-console.log("a");
-console.log("b");
