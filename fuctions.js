@@ -10,4 +10,5 @@ else
 }
 }
 
-console.log(oddEven(1989))
+const newLocal = 1989
+console.log(oddEven(newLocal))
