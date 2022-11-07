@@ -17,9 +17,19 @@ console.log(a);
     console.log(21 == 21);
     console.log(21 == '21');
     console.log('food is love'=='food is love');
-     if("undefined")
+     if("0")
      {
         console.log("truthy")
      }
     console.log(false == 0);
     console.log(null == undefined);
+
+    if(null)
+{
+console.log("truthy")
+
+}
+else 
+{
+console.log("falsy");
+}
