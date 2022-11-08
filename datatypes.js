@@ -33,3 +33,12 @@ else
 {
 console.log("falsy");
 }
+
+console.log(5/"s")
+
+//example of coercion
+const a = '5'
+const b = 5;
+
+let c = a+b;// b will be coerced with a to form a string 
+ console.log(c) // 55 
