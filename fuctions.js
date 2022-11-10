@@ -37,3 +37,5 @@ else{
 }
 
 console.log(prime(7))
+
+

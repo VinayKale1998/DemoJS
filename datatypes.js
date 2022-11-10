@@ -37,8 +37,24 @@ console.log("falsy");
 console.log(5/"s")
 
 //example of coercion
-const a = '5'
+const k = '5'
 const b = 5;
 
-let c = a+b;// b will be coerced with a to form a string 
+let c = k+b;// b will be coerced with a to form a string 
  console.log(c) // 55 
+
+ console.log(typeof(true+true))
+
+ ///example of conversion
+let l = "123"
+let m=Number(l);
+console.log(m, typeof(m));
+let p = "456 dem"
+let g = parseInt(p);
+console.log(g, typeof g);
+let o =34343344n;
+console.log(typeof o)
+
+let i= 10;
+console.log(i++);
+console.log(--i);
