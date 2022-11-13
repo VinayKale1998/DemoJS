@@ -63,3 +63,18 @@ console.log(reverseEachWord);
 const arr=["abc","cde"]
 const str=arr.join(" ")
 console.log(str)
+
+
+let straight = ["a","b","c"]
+let reverse = straight.reverse();
+
+console.log(straight)
+
+
+let len = "What's your name?"
+console.log(len.length)//17
+
+
+let str1= "01234"
+
+console.log(str1.charAt(2));
