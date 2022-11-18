@@ -27,7 +27,8 @@ console.log(result4); // JavaScript
 
 //converting a string to an array
 const string1= "Good afternoon"
-const array1= string1.split();
+const array1= string1.split(" ");// 
+const array2= string1.split("")
 console.log(array1)
 
 //string slicing
@@ -66,6 +67,7 @@ console.log(str)
 
 
 let straight = ["a","b","c"]
+console.log(straight[1])
 let reverse = straight.reverse();
 
 console.log(straight)
