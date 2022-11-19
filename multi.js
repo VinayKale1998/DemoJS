@@ -29,5 +29,36 @@ tot1.forEach(outer=>{
         }
     }
 
+//sum of array elements
+
+let numbers =[1,3,4,6,7]
+let sum =0;
+for (let number of numbers)
+{
+sum+=number
+}
+console.log(sum);
+
+//using reduce() method of an array
+
+const sum2=numbers.reduce((accumulator,currentValue)=>{
+    return accumulator+=currentValue;
+},0);
+
+console.log(sum2);
+
+let nums=[1,2,3,4]
+
+//reduce() methods takes two arguments, 1. callback function 2. Initial Value
+
+const sum3= nums.reduce((accumulator,currentValue)=>
+{
+ return accumulator+=currentValue;
+},0)
+console.log(sum3)
 
 
+const arrayOfNumbers = [1, 2, 3, 4]; 
+arrayOfNumbers.reduce((accumulator1, currentValue, index, array) => array[index] = array[index] * 2,0);
+
+console.log(arrayOfNumbers)
