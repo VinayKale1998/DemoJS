@@ -9,3 +9,5 @@ console.log(tot1[1][0])//2
 let in3=[1,2,3,4]
 in3[3]=5;
 console.log(in3)
+
+

@@ -112,3 +112,33 @@ console.log(arr4['name']); // "John"
 console.log(arr4)
 console.log(arr4.length)
 
+let sli=[0,1,2,3,4];
+console.log(sli.slice(3))// [3,4] from index to the end.
+console.log(sli.slice(0,3))// [0,1,2] first index will be included but the last index\
+
+// at position 2 add two items
+sli.splice(2,0,"1","2")
+console.log(sli);
+
+//At position 2, remove 2 items
+sli.splice(2,2);
+console.log(sli)//[ 0, 1, 2, 3, 4 ]
+  
+
+/*index	Required.
+The position to add/remove items.
+Negative value defines the position from the end of the array.
+howmany	Optional.
+Number of items to be removed.
+item1, ..., itemX	Optional.
+New elements(s) to be added.*/
+
+let studentsData = [['Jack', 24], ['Sara', 23],];
+// removing 1 index array item 
+studentsData.splice(1,1); 
+console.log(studentsData); // [["Jack", 24]]
+
+
+let in4 =[1,4,3];
+in4.sort();
+console.log(in4);
