@@ -50,4 +50,65 @@ console.log(ages.indexOf(16));//2
 console.log(ages.indexOf("dick"))//-1 as the element is  not present
 
 //findIndex() //gives the index of the first value which passes the given filter method
-console.log(ages.findIndex(filt) )//0
+console.log(ages.findIndex(test) )//2
+
+//find() returns the value of the first value which passes the test
+console.log(ages.find(test));//16
+function test(number)
+{
+    return number>10;
+}
+
+//In JavaScript, an array is an object. And, the indices of arrays are objects keys.
+
+//Since arrays are objects, the array elements are stored by reference. Hence, when an array value is copied, any change in the copied array will also reflect in the original array. For example,
+
+let arr = ['h', 'e']; 
+let arr1 = arr; 
+arr1.push('l'); console.log(arr); // ["h", "e", "l"] 
+console.log(arr1); // ["h", "e", "l"]
+
+// how can we store named keys in an array?
+
+let arr2 = ['h', 'e']; 
+arr2.name = 'John'; 
+console.log(arr2); // ["h", "e"] 
+console.log(arr2.name); // "John" 
+console.log(arr2['name']); // "John"
+
+//sort() method
+// sorting numbers
+let random =[1,10,-99,90,56]
+
+console.log(random.sort());//[ -99, 1, 10, 56, 90 ] sorted in ascending order
+
+//sorting strings
+
+let random2=['abstract','zen','genome','1','0',"2demo"]
+
+console.log(random2.sort());
+//[ '0', '1', '2demo', 'abstract', 'genome', 'zen' ] string with number literals will be given first pref.
+//string with alphabets will be sorted in alphabetical order 
+//strings which start with number character will be treated as number for sorting
+
+const a = [1, 2, 3];
+const doubled = a.map(num => {
+  return num * 2;
+});
+console.log(doubled)
+
+
+
+const tripled=a.map(num2=>{return num2*3})
+console.log(tripled)
+
+let arr4 = ['h', 'e'];
+arr4.name = 'John';
+
+console.log(arr4); // ["h", "e"]
+console.log(arr4.name); // "John"
+console.log(arr4['name']); // "John"
+
+console.log(arr4)
+console.log(arr4.length)
+
