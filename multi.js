@@ -126,3 +126,7 @@ let hero = {
 
   let str= "thousand"
   console.log(str.substring(-5,2))
+
+  const str1 = "The morning is upon us.";
+
+  console.log(str1.slice(-3, 0)); // 'us'
