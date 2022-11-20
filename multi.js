@@ -62,3 +62,67 @@ const arrayOfNumbers = [1, 2, 3, 4];
 arrayOfNumbers.reduce((accumulator1, currentValue, index, array) => array[index] = array[index] * 2,0);
 
 console.log(arrayOfNumbers)
+const nums1 = [1, 2, 3];
+nums1.slice(0, 1)
+nums1.splice(0, 1)
+nums1.unshift(4)
+
+console.log(nums1);
+let dailyActivities = ['sleep', 'work', 'exercise']
+const newDailyActivities = dailyActivities.slice(1);
+console.log(newDailyActivities)
+
+//[1, 2, 3, 4].reduce((x, y) => console.log(x, y));
+
+//what's the output?
+const config = {
+languages: [],
+set language(lang) {
+return this.languages.push(lang);
+},
+};
+
+console.log(config.language);
+
+let ag =[]
+
+console.log
+
+const text = 'Mozilla';
+console.log(text.slice(-5, 2)); // ""
+console.log(text.slice(-2, -5)); // "zil"
+
+let newList = [1, 2, 3].push(2,3);
+
+
+console.log(newList)
+//newList.push(5);
+
+const shape = {
+    radius: 10,
+    diameter() {
+      return this.radius * 2;
+    },
+    perimeter: ()=>  2 * Math.PI * this.radius,
+  };
+  
+  console.log("diameter "+shape.diameter());
+
+let x= parseInt("112 Vinay");
+console.log(x);// 112 
+
+let hero = {
+    name1: "Batman"
+  };
+  //console.log(name1 in hero); // => function() {...}
+
+  const hero1 = {
+    name2: 'Batman'
+  };
+  hero1.name2 !== undefined;     // => true
+  hero1.realName !== undefined; // => false
+  console.log(hero1.name2 !== undefined)
+  //console.log(name2 in hero1)
+
+  let str= "thousand"
+  console.log(str.substring(-5,2))
