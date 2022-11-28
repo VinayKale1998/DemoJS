@@ -281,10 +281,84 @@ console.log(fruits)
 
 // json object
 const jsonData = '{ "name": "John", "age": 22 }';
-console.log(jsonData.name)
+
+
 
 // converting to JavaScript object
 const obj = JSON.parse(jsonData);
 
 // accessing the data
 console.log(obj.name); // John
+
+// JSON object
+const data = {
+    "name": "John",
+    "age": 22,
+    "hobby": {
+	"reading" : true,
+	"gaming" : false,
+	"sport" : "football"
+    },
+    "class" : ["JavaScript", "HTML", "CSS"]
+}
+
+// accessing JSON object
+console.log(data.name); // John
+console.log(data.hobby); // { gaming: false, reading: true, sport: "football"}
+
+console.log(data.hobby.sport); // football
+console.log(data.class[1]); // HTML
+
+// JavaScript object
+const jsonData1 = { "name": "John", "age": 22 };
+
+// converting to JSON
+const obj1 = JSON.stringify(jsonData);
+
+// accessing the data
+console.log(obj1); // "{"name":"John","age":22}"4
+
+
+let user = {
+    name: "Piyush",
+    age: 24,
+  };
+ 
+  for (let key in user) {
+    console.log( key );  // name, age
+    //console.log( user[key] ); // Piyush, 24
+  }
+
+  const settings = {
+    username: 'lydiahallie',
+    level: 19,
+    health: 90,
+  };
+  
+  const data2 = JSON.stringify(settings, ['level', 'health']);
+  console.log(data2);// "{"level":19, "health":90}"
+
+  var a4 =[]; a4.unshift(5); a4.unshift(22); a4.shift(); a4.unshift(3,[4,5]); a4.shift(); a4.shift(); a4.shift();
+  
+  console.log(a4)
+  a4.unshift(3)
+
+  let ab =13;
+  switch(ab)
+  {
+    case 13:
+        console.log("ab was found");
+        break;
+
+        case 12:
+            console.log("ab was not found")
+  }
+console.log(parseFloat(10/3))
+
+
+function greeting (name = 'stranger') {
+    console.log(`Hello, ${name}!`)
+  }
+   
+  greeting('Nick') // Output: Hello, Nick!
+  greeting() // Output: Hello, stranger!
