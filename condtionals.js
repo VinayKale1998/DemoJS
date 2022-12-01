@@ -401,9 +401,10 @@ function greet() {
     console.log('Hi, there.');
 }
 
-// program to print the text
-greet();
 
-let greet = function() {
-    console.log('Hi, there.');
-}
+(function() {
+  var foo1 = 3;
+  console.log(foo1);
+})();
+
+console.log(foo1);
