@@ -362,3 +362,48 @@ function greeting (name = 'stranger') {
    
   greeting('Nick') // Output: Hello, Nick!
   greeting() // Output: Hello, stranger!
+
+  console.log()
+
+  
+function rectangleArea(width, height) {
+    if (width < 0 || height < 0) 
+      return 'You need positive integers to calculate area!';
+    
+    return width * height;
+  }
+  
+console.log(rectangleArea(-1,3))
+
+function multiplyByNineFifths(number) {
+    return number * (9/5);
+  };
+   
+  function getFahrenheit(celsius) {
+    return multiplyByNineFifths(celsius) + 32;
+  };
+   
+  getFahrenheit(15); // Returns 59
+  
+
+  const arr3=[1,2,4].map(num=> {return num+1})
+
+  // the above code can be written in a concise way using cocise body
+
+  //const arr3=[1,2,4].map(num=>  num+1)
+
+  console.log(arr3.reverse().join(" "))
+
+  // program to print the text
+greet();
+
+function greet() {
+    console.log('Hi, there.');
+}
+
+// program to print the text
+greet();
+
+let greet = function() {
+    console.log('Hi, there.');
+}
