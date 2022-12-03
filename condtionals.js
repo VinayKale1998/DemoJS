@@ -402,9 +402,22 @@ function greet() {
 }
 
 
-(function() {
+(function kill() {
   var foo1 = 3;
   console.log(foo1);
 })();
 
-console.log(foo1);
+var Person = function(pName){
+  var name = pName;
+
+  this.getName = function(){
+    return name;
+  }
+}
+
+var person1 = new Person("Neelesh");
+console.log(person1.getName());
+
+
+
+console.log(typeof null)
