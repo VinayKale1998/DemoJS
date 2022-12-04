@@ -62,13 +62,26 @@ let multiply =function(x,y)
 let mutiplyByTwo = multiply.bind(this,2)// hard coding value for x as 2 while binding 
 
 // now call the function by passing desired y value only in the paramter
-mutiplyByTwo(3); 
+mutiplyByTwo(3); //6
 //can also be passed while binding during currying which cannot  be overwritten while calling
 //let mutiplyByTwo = multiply.bind(this,2,3)
 //mutiplyByTwo(4)// will give 6 and not 8 
 
 let multiplyByThree = multiply.bind(this,3)
 
-multiplyByThree(3);
+multiplyByThree(3);//9
 
+ 
 
+// we can also do currying like below
+
+let mutiply2= function(x){
+    return function(y)
+    {
+        console.log(x*y)
+    }
+}// here we will be fixing the value of x while binding it later and y will be passed while calling
+
+ let mutiplyByFour=mutiply2(4);// here we dont use bind, instead just pass the value of x as an argument directly
+
+ mutiplyByFour(3);
