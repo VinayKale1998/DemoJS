@@ -80,3 +80,5 @@ console.log(len.length)//17
 let str1= "01234"
 
 console.log(str1.charAt(2));
+
+document.write("kill");
