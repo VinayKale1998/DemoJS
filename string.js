@@ -81,4 +81,19 @@ let str1= "01234"
 
 console.log(str1.charAt(2));
 
-document.write("kill");
+
+
+function f1()
+{
+{
+  return 50;
+}
+return 20;
+
+}
+let def = f1();
+console.log(def)
+
+
+
+
