@@ -95,5 +95,41 @@ let def = f1();
 console.log(def)
 
 
+function first(a)
+{
+  return function (b)
+  {
+    return function(c)
+    {
+      return function(d)
+      {
+        console.log(a*b*c*d)
+      }
+    }
+
+  }
+  }
+first(1)(2)(3)(4);
+console.log(first)
+
+function completeWork(Submitted)
+{
+  Submitted();
+}
+
+function submitHomework()
+{
+    console.log("Homework is submitted");
+}
+
+
+completeWork(submitHomework);
+
+
+
+ let name1 = prompt("kill your :")
+
+alert(name1)
+
 
 

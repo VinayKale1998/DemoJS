@@ -37,3 +37,14 @@ let sum =function(a)
     }
 }
 console.log(sum(1)(2)("a"));;//6
+
+let a= [1,3,4,{ab:3}]
+let b =[...a,1,2,3]
+console.log(b.join())
+
+console.log(a[3].ab);
+
+function createDemand()
+{
+    console.log("The number of prospect customers under the age ")
+}
