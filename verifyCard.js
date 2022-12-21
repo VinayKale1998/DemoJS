@@ -1,12 +1,23 @@
-module.exports.verify= function(card, cb)
+module.exports.verify= card=>
 {
-    console.log( "card has been verified");
-    for(i=0;i<2;i++)
-{
-    cb();
-}
+  const promise = new Promise((resolve, reject)=>{
+    if(!card)
+    reject("Card was not found");
+
+    setTimeout(()=>{
+      console.log("card verified");
+      resolve(true);
+    },2000);
+
+
+  });
+  return promise;
+};
+
+
+
   
-}
+
 let myPromise = new Promise(function(myResolve, myReject) {
     // "Producing Code" (May take some time)
     
