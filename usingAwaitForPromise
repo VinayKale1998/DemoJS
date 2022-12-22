@@ -1,0 +1,38 @@
+
+const verifyCard =require("../DemoJS/verifyCard")
+    
+async function  cardData()
+{
+    //read card data from inputs 
+    console.log("card details received");
+    const card="4591 1500 5883 8929"
+   
+    // how do I call the deductMoney after promise ran it's course for checking whatever it is meant o
+    // using "then" function
+    //or using async await
+    //let's use async await, wehen you use await, you have to preface the function with "async" as seen above
+    try{
+        const result= await verifyCard.verify(card);
+        console.log(result)
+        deductMoney();
+
+    }
+    catch(err)
+    {
+        console.log("Error block")
+    }
+}
+
+cardData();
+
+function deductMoney()
+{
+
+    //throw new Error("error here will not be handled by promise.then error block  present inside then")
+    //if(!card||!amount)// using if and not operator just to make use of the arguments passed.
+    console.log("Amount deducted");
+
+
+}
+
+
