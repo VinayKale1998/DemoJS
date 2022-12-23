@@ -10,7 +10,7 @@ async function  cardData()
     // how do I call the deductMoney after promise ran it's course for checking whatever it is meant o
     // using "then" function
     //or using async await
-    //let's use async await, wehen you use await, you have to preface the function with "async" as seen above
+    //let's use async await, wehen you use await, you have to preface the function with async" as seen above
     try{
         const result= await verifyCard.verify(card);
         console.log(result)

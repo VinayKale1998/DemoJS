@@ -5,7 +5,7 @@ function  cardData()
     //read card data from inputs 
     console.log("card details received");
     const card="4591 1500 5883 8929"
-    const promise = verifyCard.verify("");
+    const promise = verifyCard.verify(card);
     console.log(promise);// how do I call the deductMoney after promise ran it's course for checking whatever it is meant o
     // using "then" function
     //or using async await

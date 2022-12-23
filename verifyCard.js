@@ -1,3 +1,5 @@
+
+ // imported in usingPromise.js, usingawaitForPromise.js and ecommerce.js
 module.exports.verify= card=>
 {
   const promise = new Promise((resolve, reject)=>{
