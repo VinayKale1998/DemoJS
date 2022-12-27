@@ -1,4 +1,4 @@
-const verifyCard =require("../DemoJS/verifyCard")
+const verifyCard =require("./verifyCard")
     
 function  cardData()
 {

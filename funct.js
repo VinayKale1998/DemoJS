@@ -85,3 +85,25 @@ let mutiply2= function(x){
  let mutiplyByFour=mutiply2(4);// here we dont use bind, instead just pass the value of x as an argument directly
 
  mutiplyByFour(3);
+
+ const obj={
+    name:"Volkswagon",
+    wheels:4
+
+ };
+
+ console.log(obj.name)
+ console.log(typeof obj)
+
+ let mutltiply3=function(x)
+ {
+    return function(y)
+    {
+        return function(z)
+        {
+            console.log(x*y*z)
+        }
+    }
+ }
+
+ console.log(mutltiply3(1,3,3))

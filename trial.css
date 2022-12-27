@@ -1,0 +1,30 @@
+span{
+    background-color:cyan;
+    float: right;
+    display:block;
+    height:100%;
+    width:10%;
+    letter-spacing: 5px;
+}
+
+div{
+    background-color: #668822;
+    display: inline !important;
+    float:left;
+
+    height: 100px;
+    width: 100px;
+    overflow: scroll;
+}
+
+/* #sp1{
+    display: block ;
+
+} */
+
+
+p{
+    background-color:#00ff33;
+    display: block;
+    clear:both;
+}

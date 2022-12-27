@@ -1,0 +1,56 @@
+*{
+    font-family:aliceregular1, 'Times New Roman', Times, serif;
+   
+    line-height: 120%;
+    
+}
+
+label{
+    color:#8393ec;
+}
+
+div{
+    display: inline-block;
+}
+
+header{
+    background:cyan;
+    text-align: center;
+}
+body{
+background:rgb(212, 237, 239);
+
+}
+@font-face {
+    font-family: 'aliceregular1';
+   
+    src: local(Alice-Regular-webfont),
+    url('./fonts/Alice-Regular-webfont.woff') format('woff');
+      
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100px;
+}
+input{
+    background: #e8e5e8;
+    font-variant:small-caps;
+}
+label{
+   
+    font-variant:small-caps;
+}
+
+select{
+    background: #e8e5e8;
+}
+p2, span{
+     background: #eebfee;
+
+}
+
+textarea{
+    background: #a8d8e6;
+}
+
+
+
