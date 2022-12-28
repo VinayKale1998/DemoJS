@@ -1,26 +1,33 @@
 *{
     font-family:aliceregular1, 'Times New Roman', Times, serif;
    
-    line-height: 120%;
+    line-height: 100%;
     
 }
 
 label{
-    color:#8393ec;
+    color:#a8b4f8;
 }
 
 div{
-    display: inline-block;
+    overflow:visible;
+    display: block;
+    border:3px solid  rgb(40, 40, 219);
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    background:light rgb(40, 40, 219);
+    padding:0px 2px;
+    margin:0 auto;
+    width:30%;
 }
 
 header{
-    background:cyan;
+    background:rgb(179, 214, 214);
     text-align: center;
+    border:3px solid black;
 }
-body{
-background:rgb(212, 237, 239);
 
-}
 @font-face {
     font-family: 'aliceregular1';
    

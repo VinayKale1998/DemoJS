@@ -107,3 +107,15 @@ let mutiply2= function(x){
  }
 
  console.log(mutltiply3(1,3,3))
+let a ="10";
+ console.log(Number(a));
+
+ console.log(Number.MAX_VALUE)
+
+ try{
+  throw new Error(undefined);
+    }
+ catch(err)
+ {
+console.log(err);
+ }
