@@ -136,9 +136,24 @@ New elements(s) to be added.*/
 let studentsData = [['Jack', 24], ['Sara', 23],];
 // removing 1 index array item 
 studentsData.splice(1,1); 
-console.log(studentsData); // [["Jack", 24]]
+//console.log(studentsData); // [["Jack", 24]]
 
 
 let in4 =[1,4,3];
 in4.sort();
 console.log(in4);
+
+var arr5 =[7,6,5,4,0];
+console.log(arr5.reverse().join())
+var rev= arr5.reverse();
+console.log(rev);
+
+const ob1={
+  f:1,f1:3,f:4
+}
+console.log(ob1.toString);
+console.log(ob1.f2 !== undefined);
+
+
+console.log(ob1)
+

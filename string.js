@@ -95,20 +95,20 @@ let def = f1();
 console.log(def)
 
 
-function first(a)
-{
-  return function (b)
-  {
-    return function(c)
-    {
-      return function(d)
-      {
-        console.log(a*b*c*d)
-      }
-    }
+// function first(a)
+// {
+//   return function (b)
+//   {
+//     return function(c)
+//     {
+//       return function(d)
+//       {
+//         console.log(a*b*c*d)
+//       }
+//     }
 
-  }
-  }
+//   }
+//   }
 first(1)(2)(3)(4);
 console.log(first)
 

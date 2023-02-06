@@ -1,0 +1,1 @@
+document.getElementById("form2").style.color ="red";
